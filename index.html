@@ -1,38 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Lavanya - Data Analyst Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1f2937;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1f2937;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #e5e7eb;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+
+        .project {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #1f2937;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Hi, I'm Lavanya 👋</h1>
-    <h2>Data Analyst</h2>
+    <header>
+        <h1>Hi, I'm Lavanya 👋</h1>
+        <p>Data Analyst | SQL | Python | Excel | Power BI</p>
+    </header>
 
-    <p>
-        I am a Computer Science graduate passionate about Data Analytics,
-        SQL, Python, Excel and Power BI.
-    </p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>SQL</li>
-        <li>Python</li>
-        <li>Excel</li>
-        <li>Power BI</li>
-        <li>Pandas & NumPy</li>
-        <li>Data Visualization</li>
-    </ul>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science graduate passionate about Data Analytics.
+            I enjoy working with data, finding useful insights and presenting
+            information through clear visualizations and dashboards.
+        </p>
+    </section>
 
-    <h2>Projects</h2>
+    <section id="skills">
+        <h2>Skills</h2>
 
-    <h3>Netflix Data Analysis</h3>
-    <p>Analyzed Netflix data using Python and Pandas to find useful insights.</p>
+        <div class="skills">
+            <span class="skill">SQL</span>
+            <span class="skill">Python</span>
+            <span class="skill">Pandas</span>
+            <span class="skill">NumPy</span>
+            <span class="skill">Excel</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Data Visualization</span>
+            <span class="skill">MySQL</span>
+        </div>
+    </section>
 
-    <h3>Student Performance Analysis</h3>
-    <p>Analyzed student performance data and created meaningful visualizations.</p>
+    <section id="projects">
+        <h2>Projects</h2>
 
-    <h2>Contact</h2>
-    <p>Email: chenilavanya1234@gmail.com</p>
+        <div class="project">
+            <h3>Netflix Data Analysis</h3>
+            <p>
+                Analyzed Netflix data using Python and Pandas to understand
+                content trends, categories and useful business insights.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Student Performance Analysis</h3>
+            <p>
+                Analyzed student performance data using Python and data
+                visualization techniques to identify important patterns.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            Email:
+            <a href="mailto:chenilavanya1234@gmail.com">
+                chenilavanya1234@gmail.com
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Lavanya | Data Analyst Portfolio</p>
+    </footer>
 
 </body>
 </html>
